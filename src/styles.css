@@ -1,0 +1,123 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  flex: 1 0 23%;
+}
+
+.photo-card:hover {
+  transform: scale(1.05);
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-card .info {
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.photo-card .info-item {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.search-form {
+  margin: 20px 0;
+}
+
+.load-more {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.load-more:hover {
+  background-color: #45a049;
+}
+
+.notiflix-notify-info {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.notiflix-notify-failure {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.notiflix-notify-success {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.notiflix-notify-warning {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-form input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-form button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #2980b9;
+}
+
+.load-more {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.load-more:hover {
+  background-color: #45a049;
+}
